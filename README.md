@@ -4,7 +4,7 @@ Term project. Chinese Landscape Painting generation by adversarial network
 ## 初步计划
 - [] 跑通纹理生成网络
 - [x] 跑通pix2pix网络
-- [] 进行canny+HED边沿共同训练看效果
+- [x] 进行canny+HED边沿共同训练看效果
 - [] end-to-end training
 - [] 图像风格转换
 - [] 尝试换不同结构
