@@ -45,9 +45,9 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     ```
     
     To do a style trasfer, please do:
-    '''Shell
+    ```Shell
     python test.py
-    '''
+    ```
     
 ## Datasets:
 
