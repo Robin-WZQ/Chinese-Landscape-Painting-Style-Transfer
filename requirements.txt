@@ -1,2 +1,2 @@
-torch
+tensorboardX
 opencv-python
