@@ -67,9 +67,12 @@ U can ran grap.py to generate you own dataset.
 
 After preprocessing, the it will generate 3 dataset
 - processed by canny, like:
+
 ![1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65_0.jpg)
 - processed by HED, like:
+
 ![2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65_1.jpg)
 - canny + HED, like:
+
 ![3](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65.jpg)
 
