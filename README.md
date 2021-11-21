@@ -21,7 +21,7 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     pip install -r requirements.txt
     ```
 
-2. Download pretrained model from [BaiduYun](https://pan.baidu.com/s/1saNqGBkzZHwZpG-A5RDLVw) . well, I trained the model for 100 epoches.
+2. Download pretrained model from BaiduYun . well, I trained the model for 100 epoches.
 
 3. Pre-process the dataset
 
