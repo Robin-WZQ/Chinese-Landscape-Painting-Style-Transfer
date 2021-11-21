@@ -21,11 +21,18 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     pip install -r requirements.txt
     ```
 
-2. Download pretrained model from [BaiduYun](https://pan.baidu.com/s/1saNqGBkzZHwZpG-A5RDLVw) or 
-[GoogleDrive](https://drive.google.com/file/d/19NWziHWh1LgCcHU34geoKwYezAogv9fX/view?usp=sharing).
+2. Download pretrained model from [BaiduYun](https://pan.baidu.com/s/1saNqGBkzZHwZpG-A5RDLVw) . well, I trained the model for 100 epoches.
 
-3. Configure your dataset and pretrained model path in
-[mypath.py](https://github.com/jfzhang95/pytorch-video-recognition/blob/master/mypath.py).
+3. Pre-process the dataset
+
+    ```Shell
+    python canny.py
+    python picture2texture.py
+    python process_all.py
+    ```
+
+4. Configure your dataset and pretrained model path in
+[opt.py](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/opt.py).
 
 
     To train the model, please do:
@@ -35,21 +42,23 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     
 ## Datasets:
 
-I used two different datasets: UCF101 and HMDB.
+I used the dataset from [here](https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset)
 
 Dataset directory tree is shown below
 
-- **UCF101**
+- **Alice**
 Make sure to put the files as the following structure:
   ```
-  UCF-101
-  ├── ApplyEyeMakeup
-  │   ├── v_ApplyEyeMakeup_g01_c01.avi
+  Alice
+  ├── Harvard
+  │   ├── Harvard_0.jpg
   │   └── ...
-  ├── ApplyLipstick
-  │   ├── v_ApplyLipstick_g01_c01.avi
+  ├── met-1
+  │   ├── met_0.jpg
   │   └── ...
-  └── Archery
-  │   ├── v_Archery_g01_c01.avi
+  └── met-2
+  │   ├── met-221.jpg
   │   └── ...
   ```
+Also, I grap some pictures(nearly 800) from website, I added these pictures into the Alice dataset.
+U can ran grap.py to generate you own dataset.
