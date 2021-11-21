@@ -8,8 +8,8 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
 
 0. Clone the repo:
     ```Shell
-    git clone https://github.com/jfzhang95/pytorch-video-recognition.git
-    cd pytorch-video-recognition
+    git clone https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation.git
+    cd Chinese-Landscape-Painting-Generation
     ```
 
 1. Install dependencies:
