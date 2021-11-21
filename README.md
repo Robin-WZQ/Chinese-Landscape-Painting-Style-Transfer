@@ -64,3 +64,12 @@ Make sure to put the files as the following structure:
   ```
 Also, I grap some pictures(nearly 800) from website, I added these pictures into the Alice dataset.
 U can ran grap.py to generate you own dataset.
+
+After preprocessing, the it will generate 3 dataset
+- processed by canny, like:
+
+- processed by HED, like:
+
+- canny + HED, like:
+
+
