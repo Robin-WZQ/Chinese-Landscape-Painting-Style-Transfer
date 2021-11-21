@@ -1,5 +1,6 @@
 # Chinese-Landscape-Painting-style-transfer
 Term project. Chinese Landscape Painting style transfer by adversarial network
+还在修改中，进度80% (this is a unstable version, I will finish it before 2021/12/17 )
 
 ## Result
 ![图片1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/result.png)
@@ -42,6 +43,11 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     python pix2pix.py
     ```
     
+    To do a style trasfer, please do:
+    '''Shell
+    python test.py
+    '''
+    
 ## Datasets:
 
 I used the dataset from [here](https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset)
@@ -75,4 +81,8 @@ After preprocessing, the it will generate 3 dataset
 - canny + HED, like:
 
 <img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65.jpg" width="256px">
+
+## Experiments
+These models were trained in machine with NVIDIA TITAN X 11gb GPU. I trained it in 100 epoches and bachsize is 1. More details please see in my code.
+The G_loss and D_loss curves for each experiment are shown below: 
 
