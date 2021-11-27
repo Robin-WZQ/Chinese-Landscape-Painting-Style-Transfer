@@ -1,7 +1,7 @@
 # Chinese-Landscape-Painting-style-transfer
 Term project. Chinese Landscape Painting style transfer by adversarial network
 
-还在修改中，进度80% (this is a unstable version, I will finish it before 2021/12/17 )
+![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
 
 ## Result
 ![图片1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/result.png)
