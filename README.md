@@ -81,7 +81,7 @@ Make sure to put the files as the following structure:
   │   └── ...
   ```
 Also, I graped some pictures(nearly 800) from website and I added these pictures into the Alice dataset.
-U can ran tools/Web_Spider.py to generate you own dataset.
+U can run tools/Web_Spider.py to generate you own dataset. (And modify names in tools/name.txt)
 
 After preprocessing, it will generate 3 dataset:
 - processed by canny (I use Histogram Equalization for image enhancement first), like:
@@ -96,5 +96,3 @@ After preprocessing, it will generate 3 dataset:
 
 ## Experiments
 These models were trained in machine with NVIDIA TITAN X 11gb GPU. I trained it in 100 epoches and bachsize is 1. More details please see in my code.
-
-## Code Tree
