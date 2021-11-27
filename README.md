@@ -37,7 +37,7 @@ well, I trained the model for 100 epoches.
     ```
 
 4. Configure your dataset and pretrained model path in
-[opt.py](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/opt.py).
+[opts.py](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/opts.py).
 
 
     To train the model, please do:
@@ -70,10 +70,10 @@ Make sure to put the files as the following structure:
   │   ├── met-221.jpg
   │   └── ...
   ```
-Also, I grap some pictures(nearly 800) from website, I added these pictures into the Alice dataset.
-U can ran grap.py to generate you own dataset.
+Also, I graped some pictures(nearly 800) from website and I added these pictures into the Alice dataset.
+U can ran tools/Web_Spider.py to generate you own dataset.
 
-After preprocessing, the it will generate 3 dataset
+After preprocessing, it will generate 3 dataset:
 - processed by canny, like:
 
 <img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65_0.jpg" width="256px">
@@ -86,5 +86,5 @@ After preprocessing, the it will generate 3 dataset
 
 ## Experiments
 These models were trained in machine with NVIDIA TITAN X 11gb GPU. I trained it in 100 epoches and bachsize is 1. More details please see in my code.
-The G_loss and D_loss curves for each experiment are shown below: 
 
+## Code Tree
