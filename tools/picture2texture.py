@@ -155,7 +155,7 @@ if __name__ == '__main__':
 	names = ['Harvard','met-1','met-2','Princeton-1','Princeton-2','Smithsonian-1','Smithsonian-2','Smithsonian-3','Smithsonian-4','Smithsonian-5']
 	for name in names:
 		os.makedirs("processing_pic/%s" % name , exist_ok=True)
-	output_path = "E:/junior/CV/Homework/term_project/generate/shashui/Landscape_GAN/processing_pic" #输出路径
+	output_path = "processing_pic" #输出路径
 
 
 	for label in sorted(os.listdir(input_path)): #label：来源哪个数据集
