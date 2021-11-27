@@ -12,8 +12,8 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
 
 0. Clone the repo:
     ```Shell
-    git clone https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation.git
-    cd Chinese-Landscape-Painting-Generation
+    git clone https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer.git
+    cd Chinese-Landscape-Painting-Style-Transfer
     ```
 
 1. Install dependencies:
