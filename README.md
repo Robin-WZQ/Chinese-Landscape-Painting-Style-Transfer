@@ -50,6 +50,13 @@ well, I trained the model for 100 epoches.
     python test.py
     ```
     
+5. In the folder UI, I make a simple interactive interface by tkinter
+
+    To run the DEMO, please do:
+    ```Shell
+    python UI/UI.py
+    ```
+    
 ## Datasets:
 
 I used the dataset from [here](https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset)
