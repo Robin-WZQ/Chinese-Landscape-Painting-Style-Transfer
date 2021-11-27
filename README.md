@@ -27,7 +27,7 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
 
 2. Download pretrained model from [BaiduYun](https://pan.baidu.com/s/1_wSIMuMBNj4g2BKE0a_Okg) extract code: qls1
 
-I trained the model for 100 epoches.
+    I trained the model for 100 epoches.
 
 3. Pre-process the dataset
 
