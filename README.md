@@ -51,7 +51,9 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     python test.py
     ```
     
-5. In the folder UI, I make a simple interactive interface by tkinter
+5. In the folder UI, I make a simple interactive interface by tkinter. 
+
+    *This is a separate folder. Do not use it in the same directory as other folders！！* 
 
     To run the DEMO, please do:
     ```Shell
