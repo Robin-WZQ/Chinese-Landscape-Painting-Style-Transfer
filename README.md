@@ -82,7 +82,7 @@ Also, I graped some pictures(nearly 800) from website and I added these pictures
 U can ran tools/Web_Spider.py to generate you own dataset.
 
 After preprocessing, it will generate 3 dataset:
-- processed by canny, like:
+- processed by canny (I use Histogram Equalization for image enhancement first), like:
 
 <img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65_0.jpg" width="256px">
 - processed by HED, like:
