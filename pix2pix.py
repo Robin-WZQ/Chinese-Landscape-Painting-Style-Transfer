@@ -57,7 +57,7 @@ optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=opt.lr, betas=(opt
 
 # 图像变换
 transform=transforms.Compose([
-                               transforms.Resize(opt.img_width),   #把图像的短边统一为image_size，另外一边做同样倍速缩放，不一定为image_szie
+                               transforms.Resize(opt.img_size),   
                                transforms.ToTensor(),
                            ])
 
