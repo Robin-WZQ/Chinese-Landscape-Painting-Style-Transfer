@@ -4,7 +4,7 @@ Term project. Chinese Landscape Painting style transfer by adversarial network
 ![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
 
 ## Result
-![图片1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/result.png)
+![图片1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/results.jpg)
 
 
 ## Installation
