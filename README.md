@@ -1,5 +1,5 @@
 # Chinese-Landscape-Painting-style-transfer
-Term project. Chinese Landscape Painting style transfer by adversarial network.
+Chinese Landscape Painting style transfer by adversarial network.
 
 【Got the best performance on current Chinese Landscape Painting style transfer】
 
