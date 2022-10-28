@@ -18,7 +18,7 @@ opt = parse_opts()
 print(opt)
 
 os.makedirs("images_generate/%s" % opt.dataset_name, exist_ok=True)
-os.makedirs("save_models/%s" % opt.dataset_name, exist_ok=True)
+os.makedirs("saved_models/%s" % opt.dataset_name, exist_ok=True)
 os.makedirs("result/%s" % opt.dataset_name, exist_ok=True)
 
 cuda = True if torch.cuda.is_available() else False
