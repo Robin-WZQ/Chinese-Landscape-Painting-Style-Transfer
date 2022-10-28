@@ -39,7 +39,7 @@ The code was tested with Anaconda and Python 3.7. After installing the Anaconda 
     ```
 
 4. Configure your dataset and pretrained model path in
-[opts.py](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/opts.py).
+[opts.py](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer/blob/main/opts.py).
 
 
     To train the model, please do:
