@@ -1,6 +1,9 @@
 # Chinese-Landscape-Painting-style-transfer
 Chinese Landscape Painting style transfer by adversarial network.
 
+-----------------------------------------------------------
+[Here](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation) is my second project, it is about Chinese Landscape Painting generration.
+-----------------------------------------------------------
 
 ![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
 
@@ -97,10 +100,3 @@ After preprocessing, it will generate 3 dataset:
 
 ## Experiments
 These models were trained in machine with NVIDIA TITAN X 11gb GPU. I trained it in 100 epoches and bachsize is 1. More details please see in my code.
-
-## Future Work
-In the future, I will continue to study related topics. In my recent chat with painters, I got new inspiration about the style-transfer and generation of traditional Chinese painting, involving many tasks such as learning semantic segmentation, dataset establishment and so on. I hope I can realize it within a year.
-
----------------------------update in 2022/4/29 -------------------------------
-
-I made it! This is my new work: https://github.com/Robin-WZQ/Xi-Meng
