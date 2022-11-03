@@ -1,10 +1,10 @@
 # Chinese-Landscape-Painting-style-transfer
 Chinese Landscape Painting style transfer by adversarial network.
 
-![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
+![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer/blob/main/assets/test.gif)
 
 ## Result
-![图片1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/results.jpg)
+![图片1](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer/blob/main/assets/results.jpg)
 
 
 ## Installation
@@ -86,13 +86,13 @@ U can run tools/Web_Spider.py to generate you own dataset. (And modify names in 
 After preprocessing, it will generate 3 dataset:
 - processed by canny (I use Histogram Equalization for image enhancement first), like:
 
-<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65_0.jpg" width="256px">
+<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer/blob/main/assets/harvard_65_0.jpg" width="256px">
 - processed by HED, like:
 
-<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65_1.jpg" width="256px">
+<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer/blob/main/assets/harvard_65_1.jpg" width="256px">
 - canny + HED, like:
 
-<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/harvard_65.jpg" width="256px">
+<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Style-Transfer/blob/main/assets/harvard_65.jpg" width="256px">
 
 ## Experiments
 These models were trained in machine with NVIDIA TITAN X 11gb GPU. I trained it in 100 epoches and bachsize is 1. More details please see in my code.
