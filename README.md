@@ -1,10 +1,6 @@
 # Chinese-Landscape-Painting-style-transfer
 Chinese Landscape Painting style transfer by adversarial network.
 
------------------------------------------------------------
-[Here](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation) is my second project, it is about Chinese Landscape Painting generration.
------------------------------------------------------------
-
 ![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
 
 ## Result
